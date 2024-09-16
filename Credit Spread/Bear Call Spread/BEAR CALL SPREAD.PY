@@ -7,7 +7,7 @@ import upstox_client
 import websockets
 import requests
 
-access_token='eyJ0eXAiOiJiOiUzZGY5NWY3N2MzNzA2OTZiNjIxN2EiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaWF0IjoxNzI2MjA5OTQxLCJpc3MiOiJ1ZGFwaS1nYXRld2F5LXNlcnZpY2UiLCJleHAiOjE3MjYyNjQ4MDB9.GQSpRPSzG9hYwuSzwx6t-E-qoIijzb219DOpgoRFUDo'
+access_token='eyJ0eXWF0IjoxNzI3MjYyNjQ4MDB9.GQSpRPSzG9hYwuSzwx6t-E-qoIijzb219DOpgoRFUDo'
 
 
 # Define a dictionary to store option contract details
