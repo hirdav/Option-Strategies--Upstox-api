@@ -10,11 +10,11 @@ Repository Structure
 The repository is organized into the following folders:
 
 - Debit Spread: Contains strategies where the net premium paid is positive.
-  - Bear Put Spread: A bearish strategy involving buying and selling put options.
-  
+  - Bear Put Spread: A bearish strategy 
+  - Bull Call Spread : A bullish Strategy
 - Credit Spread: Contains strategies where the net premium received is positive.
-  - Bear Call Spread: A bearish strategy involving buying and selling call options.
-  - Bull Put Spread: A bullish strategy involving buying and selling put options.
+  - Bear Call Spread: A bearish strategy .
+  - Bull Put Spread: A bullish strategy .
 
 Folder Details
 
@@ -22,11 +22,19 @@ Debit Spread
 
 Bear Put Spread
 - File: `BEAR PUT SPREAD.py`
-- Description: Implements the Bear Put Spread strategy using live option chain data. Executes orders based on premium ranges for put options.
+- Description:  1. Buying an In the money Put option (leg 1) or Higher Premium
+                2. Selling an Out of the Money Put option (leg 2) or lower Premiuim
 
 Bull Call Spread
 - File: `BULL CALL SPREAD.py`
-- Description : Implements various call spread strategies using live option chain data.
+- Description : 1. Buy 1 ATM call option (leg 1) or Higher Premium 
+                2. Sell 1 OTM call option (leg 2) or lower Premiuim
+
+
+Bull Call Spread Max loss = Net Debit of the Strategy 
+Net Debit = Premium Paid for lower strike (higher premium) – Premium Received for higher strike (lower premium) 
+Bull Call Spread Max Profit = Spread – Net Debit 
+
 
 Credit Spread
 
