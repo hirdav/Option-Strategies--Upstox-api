@@ -11,7 +11,6 @@ The repository is organized into the following folders:
 
 - Debit Spread: Contains strategies where the net premium paid is positive.
   - Bear Put Spread: A bearish strategy involving buying and selling put options.
-  - Call Spread: Details of different call spread strategies.
   
 - Credit Spread: Contains strategies where the net premium received is positive.
   - Bear Call Spread: A bearish strategy involving buying and selling call options.
@@ -22,21 +21,21 @@ Folder Details
 Debit Spread
 
 Bear Put Spread
-- File: `bear_put_spread.py`
+- File: `BEAR PUT SPREAD.py`
 - Description: Implements the Bear Put Spread strategy using live option chain data. Executes orders based on premium ranges for put options.
 
-Call Spread
-- File: `call_spread.py`
+Bull Call Spread
+- File: `BULL CALL SPREAD.py`
 - Description : Implements various call spread strategies using live option chain data.
 
 Credit Spread
 
 Bear Call Spread
-- bear_call_spread.py
+- `BEAR CALL SPREAD.py`
 - Description: Implements the Bear Call Spread strategy using live option chain data. Executes orders based on premium ranges for call options.
 
 Bull Put Spread
-- File: `bull_put_spread.py`
+- File: `BULL PUT SPREAD.py`
 - Description: Implements the Bull Put Spread strategy using live option chain data. Executes orders based on premium ranges for put options.
 
 Getting Started
@@ -61,23 +60,22 @@ Setup
 Running the Scripts
 To run any of the strategy scripts, execute the following command in your terminal:
 
-python path/to/strategy_script.py
-```
-
-Replace `path/to/strategy_script.py` with the path to the specific strategy script you want to run.
 
 Example Usage
 
 To execute the **Bear Put Spread** strategy:
 
-python Debit_Spread/bear_put_spread.py
+python Debit_Spread/BEAR PUT SPREAD.py
 ```
 
 To execute the **Bear Call Spread** strategy:
 ```bash
-python Credit_Spread/bear_call_spread.py
+python Credit_Spread/BEAR CALL SPREAD.py
 ```
 
 ## Notes
 - Ensure that valid Upstox API credentials are configured before running the scripts.
 - Adjust the parameters and logic according to your trading needs and preferences.
+Read Api Documentation for any api related issue :
+## 📚 Documentation
+- [Upstox API Documentation](https://upstox.com/developer/api/v2/)
