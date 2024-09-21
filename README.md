@@ -1,7 +1,7 @@
 `Option-Strategies--Upstox-api`:
 
 ```markdown
-Option Strategies with Upstox API
+Option Strategies Algorithm with Upstox API
 
 Overview
 This repository contains Python scripts that implement various options trading strategies using the Upstox API. The strategies are divided into Debit Spreads and Credit Spreads, showcasing different approaches to trading options.
